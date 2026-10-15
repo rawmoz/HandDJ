@@ -7,7 +7,7 @@ import joblib
 from hands import HandTracker, draw_hand, normalize
 
 MUSIC_APP = "Spotify"  # change to "Music" if you use Apple Music
-ACTIONS = {"rock": "play", "palm": "playpause", "ok": "next track"}
+ACTIONS = {"rock": "previous track", "palm": "playpause", "ok": "next track"}
 MIN_CONFIDENCE = 0.8  # ignore guesses the model isn't sure about
 HOLD_SECONDS = 0.5  # how long to hold a gesture before it fires
 
